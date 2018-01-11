@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>layout 后台大布局 - 桌面</title>
+    <link rel="stylesheet" href="lib/layui/css/layui.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/ns.css">
+</head>
+
+<body style="padding:10px">
+    <div class="layui-col-xs12">
+        <blockquote class="layui-elem-quote">
+            欢迎管理员！
+        </blockquote>
+    </div>
+    
+    <table class="layui-table">
+        <thead>
+            <tr>
+                <th colspan="4" scope="col">服务器信息</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>操作系统</td>
+                <td>LNMP</td>
+                <td>服务器域名</td>
+                <td>www.nsnsvip.com</td>
+            </tr>
+            <tr>
+                <td>服务器IP地址</td>
+                <td>127.0.0.1</td>
+                <td>服务器端口</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>服务器当前时间</td>
+                <td>2018-01-10 12:06:23</td>
+                <td>计划</td>
+                <td>散散心败败火，照照镜子还是我</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md6">
+            <div class="layui-collapse">
+                <div class="layui-colla-item">
+                    <h2 class="layui-colla-title">更新说明</h2>
+                    <div class="layui-colla-content layui-show">
+                        <ul class="layui-timeline">
+                            <li class="layui-timeline-item">
+                                <i class="layui-icon layui-timeline-axis">&#xe63f;</i>
+                                <div class="layui-timeline-content layui-text">
+                                    <h3 class="layui-timeline-title">Ver 1.0</h3>
+                                    <span class="layui-badge-rim">2018-至今</span>
+                                    <p>
+                                        发布了！！！
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="layui-timeline-item">
+                                <i class="layui-icon layui-timeline-axis">&#xe63f;</i>
+                                <div class="layui-timeline-content layui-text">
+                                    <div class="layui-timeline-title">2018.1.10 开始</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-md6">
+            <div class="layui-collapse">
+                <div class="layui-colla-item">
+                    <h2 class="layui-colla-title">基础信息</h2>
+                    <div class="layui-colla-content layui-show">
+                      <table class="layui-table layui-table-m">
+                            <colgroup>
+                                <col width="150">
+                                <col>
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <td>系统名称</td>
+                                    <td>NS后台布局</td>
+                                </tr>
+                                <tr>
+                                    <td>版本信息</td>
+                                    <td>1.0</td>
+                                </tr>
+                                <tr>
+                                    <td>开发者</td>
+                                    <td>那时年少</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="lib/layui/layui.js"></script>
+    <script>
+        //配置路径
+    /*    layui.config({
+            base: 'static/js/'
+        }).use(['luadmin', 'layer'], function() {
+            var luadmin = layui.luadmin,
+                $ = layui.jquery,
+                layer = layui.layer;
+            
+            luadmin.hello('world');
+            // layer.msg('hello world');
+        });*/
+
+    </script>
+</body>
+</html>
