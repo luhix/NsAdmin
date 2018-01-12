@@ -46,27 +46,27 @@ layui.define(['element'], function (exports) {
                 if($(this).hasClass('open')) {
                     $(".layui-side").animate({
                         'left': -200
-                    }, 300);
+                    }, 200);
                     $(".layui-body").animate({
                         'left': 0
-                    }, 300);
+                    }, 200);
 
                     $(".layui-footer").animate({
                         'left': 0
-                    },300);
+                    },200);
                     $(this).attr('title','展开'); //设置自定义属性
                     $(this).removeClass('open').addClass('ns-menu-switch-color');
                 } else {
                     $(".layui-side").animate({
                         'left': 0
-                    }, 300);
+                    }, 200);
                     $(".layui-body").animate({
                         'left': 200
-                    }, 300);
+                    }, 200);
 
                     $(".layui-footer").animate({
                         'left': 200
-                    },300);
+                    },200);
                     $(this).attr('title','关闭'); //设置自定义属性
                     $(this).addClass('open').removeClass('ns-menu-switch-color');
                 }
@@ -77,7 +77,7 @@ layui.define(['element'], function (exports) {
         ,switchTab: function () {
             element.on('tab(right-tab)', function(data){
 
-                console.log(data.elem.context.attributes[0].nodeValue);
+                // console.log(data.elem.context.attributes[0].nodeValue);
                 // console.log(data.elem);
                 if(data.elem.context.attributes != undefined){
                     var id = data.elem.context.attributes[0].nodeValue;

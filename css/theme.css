@@ -1,0 +1,184 @@
+
+/*logo*/
+.ns-red-theme .layui-layout-admin .layui-logo{
+    color: #fff;
+    background-color: #ff6700;
+}
+
+/*头部菜单*/
+.ns-red-theme .layui-layout-admin .layui-header {
+    background-color: #fff;
+    border-bottom: 2px solid #ff6700
+}
+
+/*左侧菜单字体*/
+.ns-red-theme .layui-nav .layui-nav-item a {
+    color: #393D49 !important;
+}
+
+/*左侧菜单背景色*/
+.ns-red-theme .layui-bg-black,
+.ns-red-theme .layui-side-scroll .layui-nav-tree,
+.ns-red-theme .layui-layout-left .layui-nav-item:hover {
+    background-color: #fff !important
+}
+
+/*左侧右边框菜单*/
+.ns-red-theme .layui-bg-black{
+    /*border-right: 2px solid #ff6700;*/
+    box-shadow:2px 5px #eee;
+}
+
+/*菜单展开背景色*/
+.ns-red-theme .layui-nav-itemed .layui-nav-child{
+    background-color: #F8F8F8 !important;
+}
+
+/* 三角按钮*/
+.ns-red-theme .layui-nav-tree .layui-nav-itemed .layui-nav-more {
+    border-color: transparent transparent #ff6700;
+}
+
+.ns-red-theme .layui-nav .layui-nav-more {
+    border-top-color: #ff6700;
+}
+.ns-red-theme .layui-layout-admin .layui-header .layui-nav-mored {
+    border-color: transparent transparent #dd4b39;
+}
+
+/*左侧菜单颜色*/
+.ns-red-theme .layui-nav-tree .layui-nav-child dd.layui-this,
+.ns-red-theme .layui-nav-tree .layui-nav-child dd.layui-this a,
+.ns-red-theme .layui-nav-tree .layui-this,
+.ns-red-theme .layui-nav-tree .layui-this>a,
+.ns-red-theme .layui-nav-tree .layui-this>a:hover{
+    background-color:#ff6700;
+    color: #fff !important;
+}
+
+/*鼠标经过左侧菜单效果*/
+.ns-red-theme .layui-nav-tree .layui-nav-item a:hover{
+    background-color: #ff6700 !important;
+    color: #fff !important;
+}
+
+/*内容区域选项卡*/
+.ns-red-theme .layui-tab-card>.layui-tab-title .layui-this{
+    color: #ff6700 !important;
+}
+/*鼠标经过菜单栏*/
+.ns-red-theme .layui-nav-tree .layui-nav-bar{
+    background-color: #fff;
+}
+/*菜单栏目分割线*/
+.ns-red-theme .layui-nav-tree .layui-nav-item{
+    border-bottom: 1px solid #f8f8f8;
+}
+/*头像底部线*/
+.ns-red-theme .ns-nav-line{
+    border-top: 1px solid rgba(255,103,0,.2);
+}
+.ns-red-theme .ns-user{
+    color:#000;
+}
+.ns-red-theme .ns-user .ns-user-position span {
+    color: #ff6700;
+}
+/*=====================================海洋蓝=================================*/
+
+/*logo*/
+.ns-blue-theme .layui-layout-admin .layui-logo{
+    color: #fff;
+    background-color: #00c0ef;
+}
+
+/*头部菜单*/
+.ns-blue-theme .layui-layout-admin .layui-header {
+    background-color: #fff;
+    border-bottom: 2px solid #00c0ef;
+}
+
+/*左侧菜单字体*/
+.ns-blue-theme .layui-nav .layui-nav-item a {
+    color: #393D49 !important;
+}
+
+/*左侧菜单背景色*/
+.ns-blue-theme .layui-bg-black,
+.ns-blue-theme .layui-side-scroll .layui-nav-tree,
+.ns-blue-theme .layui-layout-left .layui-nav-item:hover {
+    background-color: #fff !important
+}
+
+/*左侧右边框菜单*/
+.ns-blue-theme .layui-bg-black{
+    /*border-right: 2px solid #ff6700;*/
+    box-shadow:2px 5px #eee;
+}
+
+/*菜单展开背景色*/
+.ns-blue-theme .layui-nav-itemed .layui-nav-child{
+    background-color: #F8F8F8 !important;
+}
+
+/* 三角按钮*/
+.ns-blue-theme .layui-nav-tree .layui-nav-itemed .layui-nav-more {
+    border-color: transparent transparent #00c0ef;
+}
+
+.ns-blue-theme .layui-nav .layui-nav-more {
+    border-top-color: #00c0ef;
+}
+.ns-blue-theme .layui-layout-admin .layui-header .layui-nav-mored {
+    border-color: transparent transparent #00c0ef;
+}
+
+/*左侧菜单颜色*/
+.ns-blue-theme .layui-nav-tree .layui-nav-child dd.layui-this,
+.ns-blue-theme .layui-nav-tree .layui-nav-child dd.layui-this a,
+.ns-blue-theme .layui-nav-tree .layui-this,
+.ns-blue-theme .layui-nav-tree .layui-this>a,
+.ns-blue-theme .layui-nav-tree .layui-this>a:hover{
+    background-color:#00c0ef;
+    color: #fff !important;
+}
+
+/*鼠标经过左侧菜单效果*/
+.ns-blue-theme .layui-nav-tree .layui-nav-item a:hover{
+    background-color: #00c0ef !important;
+    color: #fff !important;
+}
+
+/*内容区域选项卡*/
+.ns-blue-theme .layui-tab-card>.layui-tab-title .layui-this{
+    color: #00c0ef !important;
+}
+/*鼠标经过菜单栏*/
+.ns-blue-theme .layui-nav-tree .layui-nav-bar{
+    background-color: #fff;
+}
+/*菜单栏目分割线*/
+.ns-blue-theme .layui-nav-tree .layui-nav-item{
+    border-bottom: 1px solid #f8f8f8;
+}
+/*头像底部线*/
+.ns-blue-theme .ns-nav-line{
+    border-top: 1px solid rgba(0,192,239,.2);
+}
+.ns-blue-theme .ns-user{
+    color:#000;
+}
+.ns-blue-theme .ns-user .ns-user-position span {
+    color: #00c0ef;
+}
+
+/*展开关闭按钮*/
+.ns-blue-theme .ns-menu-switch-color {
+    color: #00c0ef;
+}
+
+.ns-blue-theme .ns-main .ns-menu-switch:hover {
+    color: #00c0ef;
+}
+
+
