@@ -124,17 +124,21 @@
     }).extend({ // 模块别名
         nsTab: 'nsTab',
         nsTheme: 'nsTheme',
+        nsLayer: 'nsLayer',
     });
 
-    layui.use(['element','nsTab','nsTheme'], function(){
+    layui.use(['element','nsTab','nsTheme','nsLayer'], function(){
         var element = layui.element,
             nsTab = layui.nsTab,
             nsTheme = layui.nsTheme,
+            nsLayer = layui.nsLayer,
             $  = layui.jquery;
 
         // 初始化 动态tab
         nsTab.init();
         nsTheme.init();
+        // nsLayer.error('xx');
+        nsLayer.toconfirm('成功');
     });
 </script>
 </body>
